@@ -1,0 +1,6 @@
+*.json  text
+*.pkl   binary
+*.deb   binary
+*.cmd   text eol=crlf
+*.sh    text eol=lf
+*.vssettings   text eol=crlf
