@@ -16,5 +16,6 @@
         "--line-length=99",
         "-S"
     ],
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "editor.hover.delay": 5000
 }
