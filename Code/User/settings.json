@@ -18,5 +18,7 @@
         "-S"
     ],
     "python.linting.enabled": true,
-    "editor.hover.delay": 5000
+    "editor.hover.delay": 5000,
+    "python.analysis.autoImportCompletions": false,
+    "files.insertFinalNewline": true
 }
