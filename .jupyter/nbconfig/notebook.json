@@ -1,0 +1,20 @@
+{
+  "keys": {
+    "edit": {
+      "unbind": [
+        "Ctrl-Shift-Minus"
+      ]
+    },
+    "command": {
+      "unbind": [
+        "I,I",
+        "0,0"
+      ],
+      "bind": {
+        "S": "jupyter-notebook:split-cell-at-cursor",
+        "I": "jupyter-notebook:interrupt-kernel",
+        "R": "jupyter-notebook:confirm-restart-kernel"
+      }
+    }
+  }
+}
