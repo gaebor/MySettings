@@ -1,4 +1,69 @@
 {
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorCustomizations": {
+        "[Visual Studio Light]": {
+            "editor.background": "#CAFFCA",
+            "activityBar.background": "#f0f0f0",
+            "activityBar.foreground": "#0f0f0f",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "keywords": {
+            "fontStyle": "bold"
+        },
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword.control",
+                    "keyword.other"
+                ],
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": [
+                    "meta.class",
+                    "support.type"
+                ],
+                "settings": {
+                    "foreground": "#008080"
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#000080"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#AA3700"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric",
+                    "constant.other",
+                    "string.quoted",
+                    "markup.quote"
+                ],
+                "settings": {
+                    "foreground": "#FF4000"
+                }
+            },
+            {
+                "scope": [
+                    "punctuation.separator",
+                    "keyword.operator"
+                ],
+                "settings": {
+                    "foreground": "#000000"
+                }
+            }
+        ]
+    },
     "workbench.startupEditor": "newUntitledFile",
     "editor.wordWrap": "wordWrapColumn",
     "editor.wordWrapColumn": 99,
