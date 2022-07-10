@@ -24,7 +24,9 @@
             {
                 "scope": [
                     "meta.class",
-                    "support.type"
+                    "support.type",
+                    "support.class",
+                    "meta.type"
                 ],
                 "settings": {
                     "foreground": "#008080"
@@ -52,15 +54,6 @@
                 "settings": {
                     "foreground": "#FF4000"
                 }
-            },
-            {
-                "scope": [
-                    "punctuation.separator",
-                    "keyword.operator"
-                ],
-                "settings": {
-                    "foreground": "#000000"
-                }
             }
         ]
     },
@@ -87,5 +80,6 @@
     "files.insertFinalNewline": true,
     "workbench.editorAssociations": {
         "*.ipynb": "default"
-    }
+    },
+    "editor.bracketPairColorization.enabled": false
 }
