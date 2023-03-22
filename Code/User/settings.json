@@ -72,7 +72,8 @@
     "python.formatting.blackPath": "black",
     "python.formatting.blackArgs": [
         "--line-length=99",
-        "-S"
+        "--skip-string-normalization",
+        "--target-version=py38"
     ],
     "python.linting.enabled": true,
     "editor.hover.delay": 5000,
