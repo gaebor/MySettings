@@ -1,0 +1,67 @@
+{
+    "shortcuts": [
+        {
+            "command": "notebook:change-cell-to-markdown",
+            "selector": ".jp-Notebook.jp-mod-commandMode:not(.jp-mod-readWrite) :focus",
+            "disabled": true,
+            "keys": [
+                "M"
+            ]
+        },
+        {
+            "command": "notebook:split-cell-at-cursor",
+            "keys": [
+                "Ctrl Shift -"
+            ],
+            "disabled": true,
+            "selector": ".jp-Notebook.jp-mod-editMode"
+        },
+        {
+            "command": "notebook:split-cell-at-cursor",
+            "keys": [
+                "Ctrl Shift S"
+            ],
+            "selector": ".jp-Notebook.jp-mod-editMode"
+        },
+        {
+            "disabled": true,
+            "command": "kernelmenu:interrupt",
+            "keys": [
+                "I",
+                "I"
+            ],
+            "selector": "[data-jp-kernel-user]:not(.jp-mod-readWrite) :focus:not(:read-write)"
+        },
+        {
+            "disabled": true,
+            "command": "imageviewer:invert-colors",
+            "keys": [
+                "I"
+            ],
+            "selector": ".jp-ImageViewer"
+        },
+        {
+            "command": "kernelmenu:interrupt",
+            "keys": [
+                "I"
+            ],
+            "selector": "[data-jp-kernel-user]:not(.jp-mod-readWrite) :focus:not(:read-write)"
+        },
+        {
+            "command": "kernelmenu:restart",
+            "selector": "[data-jp-kernel-user]:not(.jp-mod-readWrite) :focus:not(:read-write)",
+            "disabled": true,
+            "keys": [
+                "0",
+                "0"
+            ]
+        },
+        {
+            "command": "kernelmenu:restart",
+            "selector": "[data-jp-kernel-user]:not(.jp-mod-readWrite) :focus:not(:read-write)",
+            "keys": [
+                "R"
+            ]
+        }
+    ]
+}
